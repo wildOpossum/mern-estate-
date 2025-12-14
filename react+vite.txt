@@ -1,0 +1,2 @@
+Проект на React + Vite
+npm create vite@latest client	|| --- створення проекту vite останньої версії в папці client
