@@ -18,7 +18,7 @@ const SingUp = () => {
     setLoading(true);
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:3000/api/auth/singup', {
+      const res = await fetch('/api/auth/singup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
